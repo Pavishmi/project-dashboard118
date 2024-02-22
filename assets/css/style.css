@@ -18,6 +18,19 @@ img{
     border-radius:50%;
     align-self: center;
 }
+p
+{
+    color:#babad1;
+    font-size: 20px;
+}
+.some-content
+{
+    font-size:12px;
+}
+#search-img
+{
+    border-radius: 0px;
+}
 .main-section
 {
     background-color: black;
@@ -26,9 +39,10 @@ img{
     display: flex;
     flex-direction: column;
 }
-.dash{
+.dash
+{
     background-color: #232324;
-    width: 30%;
+    width: 20%;
     height: 100%;
     position: fixed;
     border: solid 1px #5b5b69;
@@ -47,11 +61,11 @@ img{
 }
 .top-bar{
     height: 30%;
-    width: 70%;
+    width: 80%;
     background-color: #232324;
     border: solid 1px #5b5b69;
     position: relative;
-    left: 465px;
+    left: 309px;
 }
 .search-bar
 {
@@ -59,7 +73,7 @@ img{
     height: 25px;
     width: 600px;
     border-radius: 50px;
-    background-color: #babad1;
+    background-color: #bfc9c2;
 }
 .search-bar-row
 {
@@ -72,8 +86,8 @@ img{
 {
     display: flex;
     flex-direction: row;
-    align-items:baseline;
-    justify-content:space-around;
+    align-items:center;
+    justify-content:space-evenly;
 }
 .profile-box
 {
@@ -91,10 +105,7 @@ img{
     justify-content:space-around;
     width:50%;
 }
-p
-{
-    color:#babad1;
-}
+
 .operations
 {
     display: flex;
@@ -109,7 +120,8 @@ p
     width:100px;
     align-items: center;
     text-align: center;
-    border: solid 1px #5b5b69;
+    padding: 0px;
+    border: solid 2px #5b5b69;
     border-radius: 25px ;
 }
 .content
@@ -118,7 +130,7 @@ p
     flex-direction: row;
     width:80%;
     position:relative;
-    left:460px;
+    left:310px;
     right:0px;
     padding:0px;
 }
@@ -127,9 +139,8 @@ p
     position: relative;
     left: 0px;
     height: 70%;
-    width:55%;
-    display: flex;    
-    flex-wrap: wrap;
+    width:70%;
+    display: flex;  
     flex-direction: column;
 }
 .your-projects-info-box
@@ -137,18 +148,18 @@ p
     display: flex;    
     flex-wrap: wrap;
     flex-direction: row;
-    padding:5px;
+    padding:0px;
     justify-content: center;
 }
 .your-projects-info
 {
     margin:15px;
-    height:150px;
+    height:170px;
     width:300px;
     background-color: #232324;
     border-radius: 15px;
     border-left: solid 10px purple;
-    padding:10px;
+    padding:5px;
 }
 .your-projects-info-image
 {
@@ -160,7 +171,7 @@ p
 {
     position:relative;
     left: 0px;
-    width:380px;
+    width: 350px;
     display: flex;    
     flex-wrap: wrap;
     flex-direction: column;
