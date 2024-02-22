@@ -1,0 +1,95 @@
+
+*
+{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0px;
+    background-color: black;
+    position: absolute;
+    left:0px;
+    top:0px;
+    left:0px;
+    right:0px;
+
+}
+
+div{
+    border:solid 2px white;
+}
+img{
+    border-radius:50%;
+    align-self: center;
+}
+.main-section
+{
+    background-color: black;
+    width:100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.dash{
+    background-color: #232324;
+    width: 30%;
+    height: 100%;
+    position: fixed;
+    border: solid 1px #5b5b69;
+}
+.top-bar{
+    height: 30%;
+    width: 70%;
+    background-color: #232324;
+    border: solid 1px #5b5b69;
+    position: relative;
+    left: 465px;
+}
+.search-bar
+{
+    margin: 20px;
+    height: 25px;
+    width: 600px;
+    border-radius: 50px;
+    background-color: #babad1;
+}
+.search-bar-row
+{
+    display: flex;
+    flex-direction: row;
+    align-items:baseline;
+    justify-content:space-around;
+}
+.profile-box
+{
+    display: flex;
+    flex-direction: row;
+    align-items:baseline;
+    justify-content:space-evenly;
+    width:70%;
+}
+.profile
+{
+    display: flex;
+    flex-wrap:row;
+    align-items:baseline;
+    justify-content:space-around;
+    width:50%;
+}
+p
+{
+    color:#babad1;
+}
+.operations
+{
+    display: flex;
+    flex-wrap:row;
+    align-items:baseline;
+    justify-content:space-around;
+    width: 40%;
+}
+.buttons
+{
+    height: 50px;
+    width:100px;
+}
