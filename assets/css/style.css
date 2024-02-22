@@ -14,10 +14,6 @@ body{
     right:0px;
 
 }
-
-div{
-    border:solid 2px white;
-}
 img{
     border-radius:50%;
     align-self: center;
@@ -36,6 +32,18 @@ img{
     height: 100%;
     position: fixed;
     border: solid 1px #5b5b69;
+}
+.dash-items
+{
+    margin-left:10px;
+    width:150px;
+    display: flex;
+    flex-direction: row;
+    padding-left: 20px;
+}
+.dash-items-text
+{
+    padding-left:5px;
 }
 .top-bar{
     height: 30%;
@@ -57,6 +65,13 @@ img{
 {
     display: flex;
     flex-direction: row;
+    align-items:center;
+    justify-content:space-around;
+}
+.search-bar-row-profile
+{
+    display: flex;
+    flex-direction: row;
     align-items:baseline;
     justify-content:space-around;
 }
@@ -64,15 +79,15 @@ img{
 {
     display: flex;
     flex-direction: row;
-    align-items:baseline;
-    justify-content:space-evenly;
+    align-items:center;
+    justify-content: space-evenly;
     width:70%;
 }
 .profile
 {
     display: flex;
     flex-wrap:row;
-    align-items:baseline;
+    align-items:center;
     justify-content:space-around;
     width:50%;
 }
@@ -84,12 +99,89 @@ p
 {
     display: flex;
     flex-wrap:row;
-    align-items:baseline;
-    justify-content:space-around;
+    align-items:center;
+    justify-content:space-between;
     width: 40%;
 }
 .buttons
 {
     height: 50px;
     width:100px;
+    align-items: center;
+    text-align: center;
+    border: solid 1px #5b5b69;
+    border-radius: 25px ;
+}
+.content
+{
+    display:flex;
+    flex-direction: row;
+    width:80%;
+    position:relative;
+    left:460px;
+    right:0px;
+    padding:0px;
+}
+.your-projects
+{
+    position: relative;
+    left: 0px;
+    height: 70%;
+    width:55%;
+    display: flex;    
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+.your-projects-info-box
+{
+    display: flex;    
+    flex-wrap: wrap;
+    flex-direction: row;
+    padding:5px;
+    justify-content: center;
+}
+.your-projects-info
+{
+    margin:15px;
+    height:150px;
+    width:300px;
+    background-color: #232324;
+    border-radius: 15px;
+    border-left: solid 10px purple;
+    padding:10px;
+}
+.your-projects-info-image
+{
+    display: flex;
+    justify-content: flex-end;
+
+}
+.aside
+{
+    position:relative;
+    left: 0px;
+    width:380px;
+    display: flex;    
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+.announcements
+{
+    background-color: #232324;
+    border:solid 1px black;
+    border-radius: 25px;
+    padding: 15px;
+}
+.people
+{
+    background-color: #232324;
+    border:solid 1px black;
+    border-radius: 25px;
+    padding: 10px;
+}
+.people-items
+{
+    display:flex;
+    flex-direction: row;
+    padding:5px;
 }
